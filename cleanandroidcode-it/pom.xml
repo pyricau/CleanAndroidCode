@@ -4,16 +4,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.foo.bar</groupId>
+        <groupId>info.piwai.cleanandroidcode</groupId>
         <artifactId>cleanandroidcode-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.foo.bar</groupId>
-    <artifactId>cleanandroidcode-it-it</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>cleanandroidcode-it</artifactId>
     <packaging>apk</packaging>
     <name>cleanandroidcode-it - Integration tests</name>
+    
+    <properties>
+        <platform.api>16</platform.api>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -25,13 +27,13 @@
             <artifactId>android-test</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.foo.bar</groupId>
+            <groupId>info.piwai.cleanandroidcode</groupId>
             <artifactId>cleanandroidcode</artifactId>
             <type>apk</type>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.foo.bar</groupId>
+            <groupId>info.piwai.cleanandroidcode</groupId>
             <artifactId>cleanandroidcode</artifactId>
             <type>jar</type>
             <version>1.0-SNAPSHOT</version>
@@ -52,17 +54,17 @@
                     <resourceDirectory>${project.basedir}/res</resourceDirectory>
                     <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
                     <sdk>
-                        <platform>10</platform>
+                        <platform>${platform.api}</platform>
                     </sdk>
-                                        <undeployBeforeDeploy>true</undeployBeforeDeploy>
+                    <undeployBeforeDeploy>true</undeployBeforeDeploy>
                 </configuration>
                 <extensions>true</extensions>
             </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                 </configuration>
             </plugin>
         </plugins>
