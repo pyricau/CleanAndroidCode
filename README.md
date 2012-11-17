@@ -104,4 +104,4 @@ It is a proof of concept from [Jake Wharton](https://github.com/JakeWharton), av
 
 ## Questions?
 
-Any question? Create a [new issue](https://github.com/pyricau/CleanAndroidCode/issues/new) or ask [@Piwai](http://twitter/piwai).
+Any question? Create a [new issue](https://github.com/pyricau/CleanAndroidCode/issues/new) or ask [@Piwai](http://twitter.com/piwai).
