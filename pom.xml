@@ -20,7 +20,7 @@
 		<android.platform>16</android.platform>
 		<android-support.version>r7</android-support.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<otto.version>1.3.2</otto.version>
+		<otto.version>2.0.0-SNAPSHOT</otto.version>
 		<dagger.version>0.9.1</dagger.version>
 		<androidannotations.version>2.7</androidannotations.version>
 	</properties>

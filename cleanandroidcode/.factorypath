@@ -6,4 +6,5 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/dagger/0.9.1/dagger-0.9.1.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/dagger-compiler/0.9.1/dagger-compiler-0.9.1.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/otto/2.0.0-SNAPSHOT/otto-2.0.0-SNAPSHOT.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>

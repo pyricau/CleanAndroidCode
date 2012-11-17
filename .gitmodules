@@ -1,0 +1,3 @@
+[submodule "otto"]
+	path = otto
+	url = git@github.com:pyricau/otto.git
