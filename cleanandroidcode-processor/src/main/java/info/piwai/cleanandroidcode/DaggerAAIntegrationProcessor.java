@@ -31,6 +31,10 @@ import javax.tools.StandardLocation;
 
 @SupportedSourceVersion(SourceVersion.RELEASE_6)
 @SupportedAnnotationTypes({
+/*
+ * Only supports @EActivity and @EFragment, since this is just a proof of
+ * concept. This can be extended quite easily though.
+ */
 //
 		"com.googlecode.androidannotations.annotations.EActivity", //
 		"com.googlecode.androidannotations.annotations.EFragment", //
@@ -40,6 +44,12 @@ public class DaggerAAIntegrationProcessor extends AbstractProcessor {
 	private static final String CACHE_PACKAGE_NAME = "";
 	private static final String CACHE_FILE_NAME = "DaggerAAIntegrationCache.txt";
 
+	/**
+	 * We us this to avoid opening files twice in different rounds of the same
+	 * processing, because it otherwhise fails. We shouldn't do this, but rather
+	 * collect instructions on what we should do and output the module in the
+	 * last round.
+	 */
 	boolean alreadyProcessed = false;
 
 	@Override

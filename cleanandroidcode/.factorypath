@@ -3,4 +3,7 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/com/googlecode/androidannotations/androidannotations/2.7/androidannotations-2.7.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/googlecode/androidannotations/androidannotations-api/2.7/androidannotations-api-2.7.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/sun/codemodel/codemodel/2.4.1/codemodel-2.4.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/dagger/0.9.1/dagger-0.9.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/dagger-compiler/0.9.1/dagger-compiler-0.9.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>
