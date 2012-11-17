@@ -8,7 +8,7 @@ This project is a proof of concept to show how to integrate [Dagger](http://squa
 
 We want to benefit from all those librairies to write Android apps that are both easy to maintain and lightning fast.
 
-Here is what the result:
+Here is what the result looks like:
 
 ```java
 @EActivity(R.layout.hello_activity)
