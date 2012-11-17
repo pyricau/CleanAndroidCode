@@ -6,7 +6,7 @@
 
 This project is a proof of concept to show how to integrate [Dagger](http://square.github.com/dagger/), [Otto](http://square.github.com/otto/) and [AndroidAnnotations](http://androidannotations.org).
 
-We want to benefit from all those librairies to write Android apps that are both easy to maintain and lightning fast.
+We can benefit from all those librairies to write Android apps that are both easy to maintain and lightning fast.
 
 Here is what the result looks like:
 
