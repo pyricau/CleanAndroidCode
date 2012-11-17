@@ -1,6 +1,6 @@
 # ALL YOUR LIB ARE BELONG TO US
 
-TODO: image code smell
+![Code Smell](https://github.com/pyricau/CleanAndroidCode/blob/master/assets/android_smell.png)
 
 ## Introduction
 
@@ -93,7 +93,7 @@ This extra annotation processor is the `cleanandroidcode-processor` project.
 
 Since this processor creates one class out of several annotations, it needs a caching mechanism to handle Eclipse incremental compiler.
 
-Check out the [DaggerAAIntegrationProcessor]() TODO LINK to learn more about this processor.
+Check out the [DaggerAAIntegrationProcessor](https://github.com/pyricau/CleanAndroidCode/blob/master/cleanandroidcode-processor/src/main/java/info/piwai/cleanandroidcode/DaggerAAIntegrationProcessor.java) to learn more about this processor.
 
 ### Otto & AndroidAnnotations
 
@@ -104,4 +104,4 @@ It is a proof of concept from [Jake Wharton](https://github.com/JakeWharton), av
 
 ## Questions?
 
-Any question? Create a new issue (TODO link) or ask [@Piwai](http://twitter/piwai).
+Any question? Create a [new issue](https://github.com/pyricau/CleanAndroidCode/issues/new) or ask [@Piwai](http://twitter/piwai).
