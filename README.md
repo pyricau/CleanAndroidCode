@@ -61,7 +61,7 @@ mvn clean install
 
 ### Eclipse
 
-This projects compiles and runs fine on Eclipse Juno. I have commited all the configuration files to make sure you do not spend time configuring it. You should be able to import everything "as maven projects".
+This project compiles and runs fine on Eclipse Juno. I have commited all the configuration files to make sure you do not spend time configuring it. You should be able to import everything "as maven projects".
 
 > I haven't tried with IntelliJ, but since everybody keeps telling me how good this IDE is, I assume everything will work perfectly fine :) .
 
