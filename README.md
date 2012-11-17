@@ -1,6 +1,6 @@
 # ALL YOUR LIB ARE BELONG TO US
 
-![Code Smell](https://github.com/pyricau/CleanAndroidCode/blob/master/assets/android_smell.png)
+![Code Smell](https://raw.github.com/pyricau/CleanAndroidCode/master/assets/android_smell.png)
 
 ## Introduction
 
