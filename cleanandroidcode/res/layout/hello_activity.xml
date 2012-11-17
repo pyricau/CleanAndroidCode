@@ -8,6 +8,6 @@
         android:id="@+id/hello_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="info.piwai.cleanandroidcode.HelloFragment" />
+        class="info.piwai.cleanandroidcode.HelloFragment_" />
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 package info.piwai.cleanandroidcode;
 
+import info.piwai.cleanandroidcode.base.BaseModule;
 import info.piwai.cleanandroidcode.base.GraphRetriever.GraphApplication;
 import android.app.Application;
 import dagger.ObjectGraph;
@@ -11,7 +12,7 @@ public class HelloApplication extends Application implements GraphApplication {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		graph = ObjectGraph.create(new HelloModule());
+		graph = ObjectGraph.create(new BaseModule(), new EntryPointsModule());
 	}
 
 	@Override
