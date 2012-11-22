@@ -3,3 +3,7 @@ bin
 gen
 .apt_generated
 .DS_Store
+*.idea
+*.iml
+*.ipr
+*.iws
