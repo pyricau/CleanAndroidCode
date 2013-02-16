@@ -1,44 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>info.piwai.cleanandroidcode</groupId>
-		<artifactId>cleanandroidcode-parent</artifactId>
-		<version>1.0-SNAPSHOT</version>
-	</parent>
+    <parent>
+        <groupId>info.piwai.cleanandroidcode</groupId>
+        <artifactId>cleanandroidcode-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-	<artifactId>cleanandroidcode-it</artifactId>
-	<packaging>apk</packaging>
-	<name>cleanandroidcode-it - Integration tests</name>
+    <artifactId>cleanandroidcode-it</artifactId>
+    <packaging>apk</packaging>
+    <name>cleanandroidcode-it - Integration tests</name>
 
-	<dependencies>
-		<dependency>
-			<groupId>com.google.android</groupId>
-			<artifactId>android</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.google.android</groupId>
-			<artifactId>android-test</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>info.piwai.cleanandroidcode</groupId>
-			<artifactId>cleanandroidcode</artifactId>
-			<type>apk</type>
-		</dependency>
-		<dependency>
-			<groupId>info.piwai.cleanandroidcode</groupId>
-			<artifactId>cleanandroidcode</artifactId>
-			<type>jar</type>
-		</dependency>
-	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
-				<artifactId>android-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.piwai.cleanandroidcode</groupId>
+            <artifactId>cleanandroidcode</artifactId>
+            <type>apk</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.actionbarsherlock</groupId>
+                    <artifactId>actionbarsherlock</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>info.piwai.cleanandroidcode</groupId>
+            <artifactId>cleanandroidcode</artifactId>
+            <type>jar</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.actionbarsherlock</groupId>
+                    <artifactId>actionbarsherlock</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

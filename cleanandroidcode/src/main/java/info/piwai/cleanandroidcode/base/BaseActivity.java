@@ -1,13 +1,12 @@
 package info.piwai.cleanandroidcode.base;
 
-import javax.inject.Inject;
-
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-
+import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.squareup.otto.Bus;
 
-public class BaseActivity extends FragmentActivity {
+import javax.inject.Inject;
+
+public class BaseActivity extends SherlockFragmentActivity {
 
 	@Inject
 	Bus bus;
