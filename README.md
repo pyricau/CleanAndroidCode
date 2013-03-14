@@ -51,6 +51,7 @@ Here is how to build this project from the command line.
 git clone git@github.com:pyricau/CleanAndroidCode.git
 cd CleanAndroidCode
 git submodule init
+git submodule update
 # We use a custom version of Otto, see below
 cd otto
 mvn clean install -DskipTests
