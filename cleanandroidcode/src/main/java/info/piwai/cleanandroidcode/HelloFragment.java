@@ -11,11 +11,11 @@ import com.squareup.otto.Bus;
 @EFragment(R.layout.hello_fragment)
 public class HelloFragment extends BaseFragment {
 
-	@Inject
-	Bus bus;
+    @Inject
+    Bus bus;
 
-	@Click
-	void fragmentButtonClicked() {
-		bus.post(new UpdateTitleEvent("Button clicked at " + System.currentTimeMillis()));
-	}
+    @Click
+    void fragmentButtonClicked() {
+        bus.post(new UpdateTitleEvent("Button clicked at " + System.currentTimeMillis()));
+    }
 }

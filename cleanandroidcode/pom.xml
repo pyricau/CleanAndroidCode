@@ -48,6 +48,14 @@
 			<groupId>com.squareup</groupId>
 			<artifactId>dagger-compiler</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.squareup.retrofit</groupId>
+			<artifactId>retrofit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.octo.android.robospice</groupId>
+			<artifactId>robospice-retrofit</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

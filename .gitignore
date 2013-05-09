@@ -9,5 +9,5 @@ gen
 *.iws
 
 *.settings
-*.classpath
+.classpath
 

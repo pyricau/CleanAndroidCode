@@ -10,4 +10,9 @@
         android:layout_height="wrap_content"
         class="info.piwai.cleanandroidcode.HelloFragment_" />
 
+    <fragment
+        android:id="@+id/hello_github_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="info.piwai.cleanandroidcode.GitHubFragment_" />
 </LinearLayout>

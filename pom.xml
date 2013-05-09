@@ -23,6 +23,8 @@
 		<otto.version>2.0.0-SNAPSHOT</otto.version>
 		<dagger.version>0.9.1</dagger.version>
 		<androidannotations.version>2.7</androidannotations.version>
+		<retrofit.version>1.0.0-SNAPSHOT</retrofit.version>
+		<robospice-retrofit.version>1.4.1-SNAPSHOT</robospice-retrofit.version>
 	</properties>
 
 	<dependencyManagement>
@@ -88,6 +90,16 @@
 				<groupId>com.googlecode.androidannotations</groupId>
 				<artifactId>androidannotations-api</artifactId>
 				<version>${androidannotations.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.squareup.retrofit</groupId>
+				<artifactId>retrofit</artifactId>
+				<version>${retrofit.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.octo.android.robospice</groupId>
+				<artifactId>robospice-retrofit</artifactId>
+				<version>${robospice-retrofit.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
