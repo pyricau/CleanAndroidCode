@@ -7,3 +7,7 @@ gen
 *.iml
 *.ipr
 *.iws
+
+*.settings
+.classpath
+

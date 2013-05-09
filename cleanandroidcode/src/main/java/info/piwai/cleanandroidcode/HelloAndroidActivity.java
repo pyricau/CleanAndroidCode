@@ -8,9 +8,9 @@ import com.squareup.otto.Subscribe;
 @EActivity(R.layout.hello_activity)
 public class HelloAndroidActivity extends BaseActivity {
 
-	@Subscribe
-	public void onUpdateTitle(UpdateTitleEvent event) {
-		setTitle(event.title);
-	}
+    @Subscribe
+    public void onUpdateTitle(UpdateTitleEvent event) {
+        setTitle(event.title);
+    }
 
 }
